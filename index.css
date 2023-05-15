@@ -7,7 +7,7 @@
 
 .conteiner {
     width: 100%;
-    max-width: 1920px;
+    max-width: 100vw;
     margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@ header {
 }
 
 ul {
-    margin: 110px 180px;
+    margin: 110px 50px;
 }
 
 li {
@@ -58,6 +58,7 @@ li {
 .zvonok {
     text-align: center;
     color: rgba(252, 252, 252, 1) ;
+    position: relative;
 }
 
 .octopus {
@@ -137,26 +138,16 @@ li {
 }
 
 /*secondpart*/
+
+.punktimob{
+    display: none;
+}
 .secondpart {
     min-height: 4185px;
     background: linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
     position: relative;
 }
 
-.akvalang1 {
-    display: flex;
-    justify-content: end;
-    float: right;
-}
-
-.akvalangpic1 {
-    width: 800px;
-    padding: 100px 100px;
-}
-
-.secpart {
-    display: block;
-}
 
 .punktitext {
     width: 638px;
@@ -165,28 +156,35 @@ li {
     overflow: hidden;
     box-shadow: 6px 10px 45px -9px rgba(0, 0, 0, 0.25);
     position: relative;
+    margin-top: -150px;
     
 }
 
-.punkti {
-    position: absolute;
-    top: 470px
+.h2mobi {
+    display: none;
 }
+
 
 .punkti1 {
-    margin: 10px 130px;
     display: flex;
-    flex-direction: column;
-    gap: 150px;
-    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px 40px;
+    justify-content: center;
 }
 
-.punkti2 {
-    margin: 150px ;
-    display: flex;
-    flex-direction: column;
-    gap: 150px;
+.block3 {
+    margin-top: -150px;
 }
+
+.block2{
+    margin-top: 50px;
+}
+
+.block4 {
+    margin-top: 100px;
+}
+
 
 .punkti p {
     font-family: Roboto;
@@ -229,18 +227,22 @@ li {
      
 }
 
+.akvalang1 {
+    display: flex;
+    justify-content: end;
+}
+
+.akvalangpic1 {
+    margin-top: 100px;
+}
+
 .akvalangpic2 {
-    position: absolute;
-    width: 594px;
-    height: 445px;
-    left: 54px;
-    top: 800px;
-
-
+    margin-bottom: 0;
 }
 
 .prosmotr {
-    margin-left: 100px;
+    margin-left: 60px;
+    margin-top: -220px;
 }
 
 .prosmotr h2 {
@@ -253,11 +255,526 @@ li {
 
 }
 
-/*video*/
+/*Puziri*/
 
-.video {
-    height: 668px;
-    width: 1920px;
-    background-color: rgba(65, 65, 65, 1);
+.puzirii {
+    position: relative;
+}
+
+.puz20 {
+    position: absolute;
+    left: 50px;
+    top: -260px;
 
 }
+
+.puz23 {
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
+
+.puz22 {
+    position: absolute;
+    left: 150px;
+    top: 160px;
+}
+
+.puz21 {
+    position: absolute;
+    left: 850px;
+    top: 380px;
+}
+
+.puz24 {
+    position: absolute;
+    right: 110px;
+    top: 920px;
+}
+
+.puz25 {
+    position: absolute;
+    right: 70px;
+    top: 900px;
+}
+
+.puz26 {
+    position: absolute;
+    right: 80px;
+    top: 800px;
+}
+
+.puzirki {
+    position: absolute;
+    left: 180px;
+    top: 800px;
+}
+
+
+
+/*VIDEO*/
+
+.video {
+    background-color: rgba(65, 65, 65, 1);
+    max-width: 100vw;
+    height: 668px;
+    margin: 80px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.play img {
+    width: 117px;
+    padding-left: 15px;
+}
+
+.play {
+    width: 252px;
+    height: 252px;
+    margin: 200px 0;
+    border: 10px solid rgba(196, 196, 196, 1) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+}
+
+.foorerdekcstop {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 100vh;
+    max-width: 210%;
+}
+
+.foorerdekcstop img {
+    max-width: 100%;
+}
+
+.foorermob {
+    display: none;
+}
+
+/*lastpart*/
+
+.lodka {
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+
+
+
+.probah2mob {
+    display: none;
+}
+
+.poprobovat {
+    background: url(./img/Фон11.png) no-repeat center;
+    max-width: 500px;
+    height: 562px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+
+}
+
+.podkluchit {
+    width: 500px;
+    height: 600px;
+    background: url(./img/Фон21.png) center no-repeat;
+    margin-left: 55px;
+}
+
+.poprobovatpodkl {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    margin-top: -150px;
+}
+
+.probatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    
+}
+
+.probah2deck {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 40px 25px;
+    margin-left: 35px;
+}
+
+.probatext  p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    margin-left: 35px;
+    padding: 0 15px;
+    
+}
+
+.probatext button {
+    background-color: rgba(0, 255, 255, 0);
+    width: 360px;
+    height: 75px;
+    margin: 20px 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(196, 196, 196, 1);
+    border: 5px solid rgba(196, 196, 196, 1);
+}
+
+.fish {
+    position: absolute;
+    bottom: 290px;
+    left: 50px;
+    width: 273px;
+    height: 178.73px;
+}
+
+.ligth {
+    position: absolute;
+    bottom: 240px;
+    left: -40px;
+}
+
+@media (max-width:480px) {
+    .conteiner {
+        width: 100vw;
+    }
+    .octopus {
+        width: 300px;
+        margin: 180px auto 2px;
+        filter: drop-shadow(-3px 12px 43px rgba(0, 0, 0, 0.25));
+    }
+    .calmar {
+        width: 50px;
+        margin-top: 20px;
+        margin-left: 50px;
+       
+    }
+    .header_position {
+        display: flex;
+        justify-content: space-around ;
+    }
+
+    li {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .obratni {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px; 
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .vidzhet {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .button {
+        font-size: 24px;
+        font-weight: 28px;
+        margin-top: 35px;
+        background-color: rgba(215, 92, 120, 1);
+        color: rgba(255, 255, 255, 1);
+        padding: 10px 50px;
+        border: none;
+    }
+
+    .puzir11 {
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .puzir221 {
+        position: absolute;
+        bottom: -25px;
+        left: 65px;
+    }
+    
+    .puzir31 {
+        position: absolute;
+        bottom: -80px;
+        left: 20px;
+    }
+
+    .puzirii {
+        display: none
+    }
+
+    .akvalangpic2, .akvalangpic1, .puzir21,  .puzir22,  .puzir32    {
+        display: none;
+    }
+
+    .puzir31{
+        position: absolute;
+        bottom: -170px;
+        left: -15px;
+    }
+    
+ 
+    .puzir11 {
+        position: absolute;
+        left: 10px;
+        bottom: -150px;
+    }
+    .puzir221 {
+        position: absolute;
+        bottom: -200px;
+        left: 10px;
+    }
+
+  
+
+    .firstpart {
+        background: linear-gradient(to left, #D45B78, #4B3862);
+        height: 763px;
+    }
+
+    .punkti1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px 0;
+        justify-content: center;
+    }
+
+    .block1, .block2, .block3, .block4 {
+        margin: 0;
+    }
+    .secondpart {
+        max-height: 3235px;
+        background: linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
+        position: relative;
+    }
+
+    .punktimob {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-top: 60px;
+    }
+
+    .h2mobi {
+        display: block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+        color: rgba(242, 242, 242, 1);
+        text-align: center;
+        margin: 60px auto;
+    }
+
+    .punkti {
+        display: none;
+    }
+
+    .punktitext {
+        width: 370px;
+        height: 250ppx;
+        background-color: rgba(82, 58, 100, 1);
+        overflow: hidden;
+        box-shadow: 6px 10px 45px -9px rgba(0, 0, 0, 0.25);
+        position: relative;
+        margin-top: 0;
+    }
+
+    .punktimob p {
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: left;
+        color: rgba(242, 242, 242, 1);
+        padding: 10px;
+        padding-left: 110px;
+        word-break: break-all;
+        
+    
+    }
+
+
+  
+    
+    .punktimob h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: left;
+        color: rgba(242, 242, 242, 1);
+        padding-top: 90px;
+        padding-left: 110px;
+         
+    }
+
+    .punktimob h1 {
+        font-family: Roboto;
+        font-size: 96px;
+        font-weight: 900;
+        line-height: 113px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(148, 75, 110, 1);
+        position: absolute;
+        left: -20px;
+        
+        
+    }
+    .prosmotr {
+        margin: 0 35px 0 0;
+        padding: 0;
+    }
+    
+    .prosmotr h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+    
+    }
+    .poprobovat {
+        background: url(./img/Фон11.png) no-repeat center;
+        max-width: 370px;
+        height: 425px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    
+    
+    }
+    
+
+   .probah2deck {
+    display: none;
+   }
+    
+    .poprobovatpodkl {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px 0;
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .probatext {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+        
+    }
+    
+    .probah2mob {
+        display: block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+        padding: 40px 25px;
+        margin-left: 35px;
+    }
+    
+    .probatext  p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        margin: 0;
+        text-align: center;
+        
+    }
+    
+    .probatext button {
+        background-color: rgba(0, 255, 255, 0);
+        width: 230px;
+        height: 50px;
+        margin: 50px auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 42px;
+        color: rgba(196, 196, 196, 1);
+        border: 5px solid rgba(196, 196, 196, 1);
+    }
+
+    .podkluchit {
+        max-width: 370px;
+        height: 492px;
+        background: url(./img/Фон21.png) center no-repeat;
+        margin-left: 0;
+    }
+    
+
+    .lodka {
+        display: none;
+    
+    }
+
+  
+
+    .foorerdekcstop {
+        display: none;
+    }
+    
+    .foorermob {
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .fon1 {
+        width: 100%;
+    }
+
+    .fish {
+        display: none;
+    }
+    
+
+    
+    
+}
+
+
+
+
